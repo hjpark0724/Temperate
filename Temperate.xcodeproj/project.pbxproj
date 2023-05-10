@@ -14,6 +14,8 @@
 		2EDDCC972A0B27420017478E /* TemperateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDCC962A0B27420017478E /* TemperateTests.swift */; };
 		2EDDCCA12A0B27420017478E /* TemperateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDCCA02A0B27420017478E /* TemperateUITests.swift */; };
 		2EDDCCA32A0B27420017478E /* TemperateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDCCA22A0B27420017478E /* TemperateUITestsLaunchTests.swift */; };
+		2EDDCCB02A0B2D210017478E /* WeatherBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDCCAF2A0B2D210017478E /* WeatherBox.swift */; };
+		2EDDCCB22A0B32CD0017478E /* RainfallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDCCB12A0B32CD0017478E /* RainfallCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2EDDCC9C2A0B27420017478E /* TemperateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDDCCA02A0B27420017478E /* TemperateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperateUITests.swift; sourceTree = "<group>"; };
 		2EDDCCA22A0B27420017478E /* TemperateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EDDCCAF2A0B2D210017478E /* WeatherBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBox.swift; sourceTree = "<group>"; };
+		2EDDCCB12A0B32CD0017478E /* RainfallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainfallCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		2EDDCC842A0B27420017478E /* Temperate */ = {
 			isa = PBXGroup;
 			children = (
+				2EDDCCB32A0B34A90017478E /* Components */,
 				2EDDCC852A0B27420017478E /* TemperateApp.swift */,
 				2EDDCC872A0B27420017478E /* ContentView.swift */,
 				2EDDCC892A0B27420017478E /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				2EDDCCA22A0B27420017478E /* TemperateUITestsLaunchTests.swift */,
 			);
 			path = TemperateUITests;
+			sourceTree = "<group>";
+		};
+		2EDDCCB32A0B34A90017478E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2EDDCCB12A0B32CD0017478E /* RainfallCard.swift */,
+				2EDDCCAF2A0B2D210017478E /* WeatherBox.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EDDCC882A0B27420017478E /* ContentView.swift in Sources */,
+				2EDDCCB22A0B32CD0017478E /* RainfallCard.swift in Sources */,
+				2EDDCCB02A0B2D210017478E /* WeatherBox.swift in Sources */,
 				2EDDCC862A0B27420017478E /* TemperateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
